@@ -1,7 +1,7 @@
-import Hello from '~/components/Hello';
+import UserList from './components/userLIst/UserList';
 
-function App() {
-  return <Hello />;
-}
+const App: React.FC = () => {
+  return <UserList />;
+};
 
 export default App;
