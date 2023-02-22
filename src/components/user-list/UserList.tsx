@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useActions } from '~/hooks/useAction';
 import { useTypedSelector } from '~/hooks/useTypedSelector';
 
-const UserList: React.FC = () => {
+const UserList = (): JSX.Element => {
   const { users, error, loading } = useTypedSelector((state) => state.user);
   const { fetchUsers } = useActions();
 

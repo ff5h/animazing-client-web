@@ -1,12 +1,9 @@
-import TodoList from './components/todo-list/TodoList';
-import UserList from './components/user-list/UserList';
+import Card from './components/card/Card';
 
-const App: React.FC = () => {
+const App = (): JSX.Element => {
   return (
     <div>
-      <UserList />
-      <hr />
-      <TodoList />
+      <Card />
     </div>
   );
 };
