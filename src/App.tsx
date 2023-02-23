@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { HomePage } from './pages/HomePage/HomePage.module.scss';
-
 import '~/App.scss';
+
+import HomePage from './pages/HomePage/HomePage';
 
 const App = (): JSX.Element => {
   return (
