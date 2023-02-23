@@ -1,0 +1,40 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+  background-color: #141414;
+
+  .HeaderLeft {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+
+    .NavBar {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+
+  .HeaderRight {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .Item {
+    font-family: NetflixSans;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+  }
+
+  .Account {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
