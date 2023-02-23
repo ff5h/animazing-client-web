@@ -1,9 +1,10 @@
-import Card from './components/card/Card';
+import React from 'react';
+import HomePage from './pages/HomePage/Homepage';
 
 const App = (): JSX.Element => {
   return (
     <div>
-      <Card />
+      <HomePage />
     </div>
   );
 };
