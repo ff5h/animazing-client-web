@@ -1,0 +1,50 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 278px;
+  background-color: #141414;
+  color: #808080;
+
+  .SocialMedia {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .Links {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+
+    .TextColumn {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      white-space: nowrap;
+
+      .Text {
+        font-family: NetflixSans;
+        font-weight: 400;
+        font-size: 13px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .Button {
+    padding: 10px 15px;
+    border: 1px solid #808080;
+    width: fit-content;
+  }
+
+  .Copyright {
+    font-family: NetflixSans;
+    font-weight: 300;
+    font-size: 11px;
+  }
+}

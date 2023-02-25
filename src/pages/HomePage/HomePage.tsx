@@ -1,6 +1,8 @@
 import React from 'react';
-import CategoryWrapper from '~/components/CategoryWrapper/CategoryWrapper';
+
 import Header from '~/components/Header/Header';
+import CategoryWrapper from '~/components/CategoryWrapper/CategoryWrapper';
+import Footer from '~/components/Footer/Footer';
 
 import styles from './HomePage.module.scss';
 
@@ -11,6 +13,7 @@ const HomePage = ({}: HomePageProps): JSX.Element => {
     <div className={styles.HomePage}>
       <Header />
       <CategoryWrapper />
+      <Footer />
     </div>
   );
 };
